@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Somos JennSi"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/zap"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="34dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:text="Tu destino de confianza para calzado de calidad y estilo."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="En JennSi, nos especializamos en ofrecerte una amplia selección de zapatos para toda la familia. Con una cuidada selección de las mejores marcas y modelos, te ayudamos a encontrar el par perfecto que se adapte a tus gustos y necesidades, ya sea para un look elegante, cómodo o deportivo."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Compra en Línea:
+Ahora puedes disfrutar de nuestra colección desde la comodidad de tu hogar. Explora nuestra tienda en línea, descubre las últimas novedades y realiza tus compras con facilidad. Además, ofrecemos envíos rápidos y seguros para que tu compra llegue a tu puerta en poco tiempo."/>
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="148dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="497dp" />
+
+        <Button
+            android:id="@+id/buttonRegistro"
+            android:layout_width="156dp"
+            android:layout_height="47dp"
+            android:text="Registro"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="569dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
